@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="reco.recoshop.Activities.AddProduct">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:text="@string/add_a_product"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+
+        <TextView
+            android:id="@+id/addProduct_tvName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:text="@string/name"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/addProduct_etName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+
+        <TextView
+            android:id="@+id/addProduct_tvCompany"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:text="@string/company"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/addProduct_etCompany"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+
+        <TextView
+            android:id="@+id/addProduct_tvCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:text="@string/category"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/addProduct_etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:text="@string/manufacturer_s_image"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="chooseImage"
+            android:text="@string/choose_image" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/addProduct_iv"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/addProduct_bSave"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:enabled="false"
+        android:text="Save Product"
+        android:onClick="saveProduct"/>
+
+</LinearLayout>

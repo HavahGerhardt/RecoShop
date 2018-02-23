@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="reco.recoshop.Activities.SignIn"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/singin_tvEmail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="75dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/singin_etEmail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:inputType="text|textEmailAddress"
+        android:maxLines="1" />
+
+
+    <TextView
+        android:id="@+id/singin_tvPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/singin_etPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:inputType="text|textPassword"
+        android:maxLines="1"/>
+
+
+    <Button
+        android:id="@+id/singin_bSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="signIn"
+        android:text="Sign In" />
+
+
+</LinearLayout>

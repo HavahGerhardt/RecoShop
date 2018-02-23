@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "329538504375",
+    "firebase_url": "https://recoshop-2672d.firebaseio.com",
+    "project_id": "recoshop-2672d",
+    "storage_bucket": "recoshop-2672d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329538504375:android:db10d6f2f341734d",
+        "android_client_info": {
+          "package_name": "reco.recoshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329538504375-7pv3bau8ee0f83kju5jph2p408vlmmfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIK0s_uVE2zwPUUG0tK5udzWqKdVEH7FM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

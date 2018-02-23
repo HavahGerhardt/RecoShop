@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="reco.recoshop.Activities.Main"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/main_ivRecoIcon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:src="@drawable/reco_main_icon"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/main_tvRecoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="50dp"
+        android:paddingTop="20dp"
+        android:text="@string/welcom_to_recoshop"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/main_bSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sign_in"
+        android:onClick="signIn"/>
+
+    <Button
+        android:id="@+id/main_bRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/register"
+        android:onClick="register"/>
+</LinearLayout>

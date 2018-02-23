@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RecoShop</string>
+    <string name="welcom_to_recoshop">Welcom to RecoShop!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="categories">Categories</string>
+    <string name="welcome">Welcome</string>
+    <string name="saved">Saved</string>
+    <string name="company">Company:</string>
+    <string name="category">Category:</string>
+    <string name="manufacturer_s_image">Manufacturer\'s Image:</string>
+    <string name="add_a_product">Add a product:</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="add_a_recommendation">Add a Recommendation</string>
+    <string name="product_s_image">Product\'s image</string>
+    <string name="save">Save</string>
+</resources>

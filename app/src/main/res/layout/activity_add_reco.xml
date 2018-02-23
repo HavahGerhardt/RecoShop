@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="reco.recoshop.Activities.AddReco">
+
+
+    <TextView
+        android:id="@+id/addReco_tvProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a new reco for "
+        android:textColor="@android:color/black"
+        android:paddingBottom="30dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addReco_tvTile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:text="Title:" />
+
+        <EditText
+            android:id="@+id/addReco_etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addReco_tvLink"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center|left"
+            android:text="Where did you buy it?" />
+
+        <EditText
+            android:id="@+id/addReco_etLink"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="textUri" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addReco_tvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="top"
+            android:text="Description:" />
+
+        <EditText
+            android:id="@+id/addReco_etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top|left"
+            android:lines="1"
+            android:maxLines="5"
+            android:minLines="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addReco_tvImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/product_s_image" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:onClick="chooseImage"
+            android:text="@string/choose_image" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/addReco_ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/addReco_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <Button
+            android:id="@+id/addReco_bSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveReco"
+            android:text="Save Reco"
+            android:enabled="false"/>
+    </LinearLayout>
+
+
+</LinearLayout>
