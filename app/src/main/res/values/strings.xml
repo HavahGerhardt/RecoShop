@@ -17,4 +17,14 @@
     <string name="add_a_recommendation">Add a Recommendation</string>
     <string name="product_s_image">Product\'s image</string>
     <string name="save">Save</string>
+    <string name="add_a_new_reco_for">Add a new reco for</string>
+    <string name="go_shopping">Go Shopping</string>
+    <string name="title">Title:</string>
+    <string name="where_did_you_buy_it">Where did you buy it?</string>
+    <string name="description">Description:</string>
+    <string name="save_reco">Save Reco</string>
+    <string name="reco">Reco</string>
+    <string name="product_name">Product Name</string>
+    <string name="add_like">Add Like</string>
+    <string name="save_product">Save Product</string>
 </resources>

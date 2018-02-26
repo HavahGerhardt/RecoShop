@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="100dp"
+    android:orientation="horizontal"
     android:paddingLeft="20dp"
-    android:paddingRight="20dp"
-    android:orientation="horizontal">
+    android:paddingRight="20dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,14 +14,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/reco_tvUser"
+            android:id="@+id/reco_tvTitle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/reco_tvText"
+            android:id="@+id/reco_tvUser"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content"/>
+
     </LinearLayout>
 
     <TextView
@@ -29,15 +31,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.5"
-        android:gravity="center|top"
-        android:text="0" />
+        android:gravity="center|top" />
 
     <ImageView
+        android:id="@+id/reco_ivLikes"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:src="@drawable/heart"
-        android:id="@+id/reco_ivLikes"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:src="@drawable/heart" />
 
 
     <ImageView
@@ -45,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY" />
 
 
 </LinearLayout>

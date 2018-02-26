@@ -127,7 +127,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="end"
         android:enabled="false"
-        android:text="Save Product"
+        android:text="@string/save_product"
         android:onClick="saveProduct"/>
 
 </LinearLayout>

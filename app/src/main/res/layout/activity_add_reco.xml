@@ -12,7 +12,7 @@
         android:id="@+id/addReco_tvProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add a new reco for "
+        android:text="@string/add_a_new_reco_for"
         android:textColor="@android:color/black"
         android:paddingBottom="30dp"
         android:textSize="20dp"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/addReco_tvTile"
+            android:id="@+id/addReco_tvTitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="3"
             android:gravity="center|left"
-            android:text="Title:" />
+            android:text="@string/title" />
 
         <EditText
             android:id="@+id/addReco_etTitle"
@@ -51,7 +51,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1.5"
             android:gravity="center|left"
-            android:text="Where did you buy it?" />
+            android:text="@string/where_did_you_buy_it" />
 
         <EditText
             android:id="@+id/addReco_etLink"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:gravity="top"
-            android:text="Description:" />
+            android:text="@string/description" />
 
         <EditText
             android:id="@+id/addReco_etDesc"
@@ -133,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="saveReco"
-            android:text="Save Reco"
+            android:text="@string/save_reco"
             android:enabled="false"/>
     </LinearLayout>
 

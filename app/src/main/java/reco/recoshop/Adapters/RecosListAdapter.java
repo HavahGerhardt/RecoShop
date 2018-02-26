@@ -69,8 +69,8 @@ public class RecosListAdapter extends BaseAdapter implements Filterable {
         Reco currentReco = recos.get(position);
 
         final ImageView imageView = gridView.findViewById(R.id.reco_ivImage);
-        TextView tvTitle = gridView.findViewById(R.id.reco_tvText);
         TextView tvUser = gridView.findViewById(R.id.reco_tvUser);
+        TextView tvTitle = gridView.findViewById(R.id.reco_tvTitle);
         TextView tvLikes = gridView.findViewById(R.id.reco_tvLikes);
         ImageView ivLikes = gridView.findViewById(R.id.reco_ivLikes);
 
@@ -88,7 +88,7 @@ public class RecosListAdapter extends BaseAdapter implements Filterable {
             }
         });
 
-        tvTitle.setText(currentReco.getDescription());
+        tvTitle.setText(currentReco.getTitle());
         tvUser.setText(currentReco.getUser());
 
         int likes = currentReco.getLikes();

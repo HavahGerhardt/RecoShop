@@ -33,7 +33,7 @@ public class RecoActivity extends AppCompatActivity {
     private Reco currentReco;
     private Product product;
     private TextView tvProductName, tvCompany, tvCategory, tvRating;
-    private TextView tvUser, tvDescription, tvLikes;
+    private TextView tvTitle, tvUser, tvDescription, tvLikes;
     private ImageView ivProduct, ivReco, ivLike, ivStar;
     private Button bAddLike;
 
@@ -61,6 +61,7 @@ public class RecoActivity extends AppCompatActivity {
         productRef = Utility.DB_REF.child(product.getCategory()).child(product.getId());
         recoRef = productRef.child("Recos").child(currentReco.getRecoId());
 
+        tvTitle = findViewById(R.id.reco_activity_tvTitle);
         tvUser = findViewById(R.id.reco_activity_tvUser);
         tvDescription = findViewById(R.id.reco_activity_tvDescription);
         tvLikes = findViewById(R.id.reco_activity_tvLikes);
@@ -80,6 +81,7 @@ public class RecoActivity extends AppCompatActivity {
     private void fillRecoFields() {
 
         // Fill reco's fields.
+        tvTitle.setText(currentReco.getTitle());
         tvUser.setText(currentReco.getUser());
         tvDescription.setText(currentReco.getDescription());
         tvLikes.setText(String.valueOf(currentReco.getLikes()));

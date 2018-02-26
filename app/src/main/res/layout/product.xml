@@ -12,8 +12,7 @@
         android:id="@+id/product_tvName"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="" />
+        android:layout_weight="1"/>
 
 
     <TextView
@@ -21,8 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.5"
-        android:gravity="center|top"
-        android:text="0" />
+        android:gravity="center|top"/>
 
     <ImageView
         android:id="@+id/product_ivStar"
