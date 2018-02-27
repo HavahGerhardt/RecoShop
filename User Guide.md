@@ -64,11 +64,11 @@ Then I texted "va" on the search view.
 I pressed at the first (and only) result that I got.
 It opened the product activity:
 <p align="center">
-<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Product%202recos.png" width="250" >
+<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Product%202recos.png" width="400" >
 </p>
 
 I pressed at the best reco, which has one like (the user1's reco). It opened the reco activity:
 <p align="center">
-<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Reco%20activity%20like1.png" width="250" >
+<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Reco%20activity%20like1.png" width="400" >
 </p>
 Then I could add a like (by clicking on the "Add Like" button) and open the shopping site.
