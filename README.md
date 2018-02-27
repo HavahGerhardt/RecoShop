@@ -17,10 +17,10 @@ I designed it like a tree: the roots are the categories, their children are the 
 
 Firebase Database:
 <p align="center">
-<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Firebase%20DB.png" width="400" >
+<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Firebase%20DB.png" width="600" >
 </p>
 
 Firebase Storage:
 <p align="center">
-<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Firebase%20Storage.png" width="400" >
+<img src="https://github.com/HavahGerhardt/RecoShop/blob/master/screenshots/Firebase%20Storage.png" width="600" >
 </p>
